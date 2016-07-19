@@ -277,7 +277,7 @@
 
     // Insert file button.
     $.FroalaEditor.DefineIcon('importFile', {
-        NAME: 'upload'
+        NAME: 'file-word-o'
     });
     $.FroalaEditor.RegisterCommand('importFile', {
         title: 'Import Word Doc',
@@ -322,7 +322,7 @@
         }
     });
 
-    $.FroalaEditor.RegisterCommand('fileDismissError', {
+    $.FroalaEditor.RegisterCommand('mammothDismissError', {
         title: 'OK',
         callback: function() {
             this.mammoth.hideProgressBar(true);
