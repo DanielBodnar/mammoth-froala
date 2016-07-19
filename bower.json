@@ -30,6 +30,7 @@
     "tests"
   ],
   "dependencies": {
-    "froala-wysiwyg-editor": "2.3.x"
+    "froala-wysiwyg-editor": "2.3.x",
+    "mammoth-froala": "^0.0.1"
   }
 }
