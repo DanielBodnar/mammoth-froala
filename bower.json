@@ -1,0 +1,35 @@
+{
+  "name": "mammoth-froala",
+  "version": "0.0.1",
+  "authors": [
+    "Daniel Bodnar <daniel.bodnar@gmail.com>"
+  ],
+  "description": "Mammoth.js bindings for Froala WYSIWYG HTML rich text editor.",
+  "main": "src/mammoth-froala.js",
+  "keywords": [
+    "mammoth.js",
+    "mammoth",
+    "froala",
+    "html",
+    "text",
+    "editor",
+    "wysiwyg",
+    "jquery-plugin",
+    "rich editor",
+    "rich text editor",
+    "rte",
+    "javascript",
+    "jquery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "froala-wysiwyg-editor": "2.3.x"
+  }
+}
